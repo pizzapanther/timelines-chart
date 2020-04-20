@@ -91,11 +91,13 @@ myChart
         data: [
           {
             timeRange: [<date>, <date>],
-            val: <val: number (continuous dataScale) or string (ordinal dataScale)>
+            val: <val: number (continuous dataScale) or string (ordinal dataScale)>,
+            data: {<any additional arbitrary data>}
           },
           {
             timeRange: [<date>, <date>],
-            val: <val>
+            val: <val>,
+            data: {<any additional arbitrary data>}
           },
           (...)
         ]
